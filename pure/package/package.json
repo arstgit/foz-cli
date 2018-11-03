@@ -1,0 +1,13 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'",
+    "dev": "nodemon -e js,html,json -x npm t",
+    "test": "node test"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "psychedelic": "^1.0.1"
+  }
+}

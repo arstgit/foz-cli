@@ -1,0 +1,36 @@
+{
+  "name": "foz-cli",
+  "version": "1.0.11",
+  "description": "Software development kit for foz.",
+  "main": "index.js",
+  "bin": {
+    "foz": "./bin/index.js"
+  },
+  "scripts": {
+    "dev": "nodemon -e js,html,json -x npm t",
+    "test": "NODE_ENV=test node test",
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekchuank/foz-cli.git"
+  },
+  "keywords": [
+    "foz",
+    "cli"
+  ],
+  "author": "derekchuank",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derekchuank/foz-cli/issues"
+  },
+  "homepage": "https://github.com/derekchuank/foz-cli#readme",
+  "dependencies": {
+    "config-lev": "^1.0.1",
+    "dup-r": "^1.0.0",
+    "ioredis": "^4.5.1",
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "require-dir-lite": "^1.0.0"
+  }
+}

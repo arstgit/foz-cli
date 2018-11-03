@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/app/index.js",
+  "scripts": {
+    "prettier": "prettier --write '{,!(node_modules)/**/}*.js'",
+    "test": "NODE_ENV=test node test",
+    "dev": "nodemon -e js,html,json -x npm t"
+  },
+  "dependencies": {
+    "config-lev": "^1.0.1",
+    "dup-r": "^1.0.0",
+    "ioredis": "^4.3.0",
+    "koa": "^2.6.1",
+    "koa-router": "^7.4.0",
+    "psychedelic": "^1.0.1",
+    "require-dir-lite": "^1.0.0"
+  }
+}
