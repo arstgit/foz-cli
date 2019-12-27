@@ -1,6 +1,6 @@
 {
   "name": "foz-cli",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Software development kit for foz.",
   "main": "index.js",
   "bin": {
@@ -28,8 +28,8 @@
   "dependencies": {
     "config-lev": "^1.0.1",
     "dup-r": "^1.0.0",
-    "ioredis": "^4.5.1",
-    "koa": "^2.6.1",
+    "ioredis": "^4.14.1",
+    "koa": "^2.11.0",
     "koa-router": "^7.4.0",
     "require-dir-lite": "^1.0.0"
   }
